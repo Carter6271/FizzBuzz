@@ -2,7 +2,7 @@ package lab1;
 
 public class Reduce {
     public static void main(String[] args) {
-        int count = reduce(100);
+        int count = reduce(200);
         System.out.println(count);
     }
 
