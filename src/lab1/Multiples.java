@@ -18,4 +18,16 @@ public class Multiples {
         }
         return total;
     }
+    static int multiples() {
+        int total = 0;
+        for (int i = 1; i < 1000; i++) {
+            boolean multipleOfThree = i % 3 == 0;
+            boolean multipleOfFive = i % 5 == 0;
+
+            if (multipleOfFive || multipleOfThree) {
+                total++;
+            }
+        }
+        return total;
+    }
 }
